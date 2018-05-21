@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+header nav {
+  display: inline-block;
+  float: right;
+}
+header h1 {
+  color: white;
+}
+nav p{
+  color: white;
+  margin-right: 10px;
+}
+nav > p {
+    cursor: pointer;
+    float: right;
+}
+.jumbotron {
+  background-color: inherit;
+}
+.btn-primary {
+  color: white;
+  background-color: black;
+  opacity: .6;
+  position: relative;
+  top: 100px;
+  height: 50px;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: black;
+}
+figure img {
+  flex-wrap: wrap;
+  width: 60%;
+  height: 200px;
+  margin-left: 50px;
+}
+footer {
+  background-color: #262626;
+}

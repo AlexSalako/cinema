@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <title>QA Cinemas</title>
+  </head>
+  <body>
+    <script>
+      alert(Welcome to the QA Cinema Website!);
+    </script>
+    <header>
+      <div class="row">
+        <h1 class="col-sm-4">QA Cinemas</h1>
+          <nav class="col-sm-8 text-right">
+            <p><a>Home</a></p>
+            <p>Films</p>
+            <p>Offers</p>
+            <p>Venue</p>
+            <p><a>Buy Tickets</a></p>
+          </nav>
+        </div>
+    </header>
+  <section class="jumbotron">
+    <div class="container">
+      <div class=" row text-center">
+        <video width="800" height="400" controls>
+          <source src="video/Deadpool2.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+        </video>
+        <a class="btn btn-primary" id ="bookings" href="bookings.html" role="button">Make a booking</a>
+      </div>
+    </div>
+  </section>
+  <section class="menu_options">
+    <div class="row">
+      <figure class="col-sm-6">
+        <img src="img/anon.jpg"/>
+      </figure>
+      <figure class="col-sm-6">
+        <img src="img/black_panther.jpg"/>
+      </figure>
+    </div>
+    <div class="row">
+      <figure class="col-sm-6">
+        <img src="img/solo.jpg"/>
+      </figure>
+      <figure class="col-sm-6">
+        <img src="img/avengers.jpg"/>
+      </figure>
+    </div>
+  </section>
+  <footer>
+    <div class="row">
+      <p class="col-sm-4">The Grill</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1"><a href=# class="fa fa-facebook"></a></li>
+        <li class="col-sm-1"><a href=# class="fa fa-twitter"></a></li>
+        <li class="col-sm-1"><a href=# class="fa fa-instagram"></a></li>
+        <li class="col-sm-1"><a href=# class="fa fa-pinterest"></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("bookings").onClick = function(){
+      location = "bookings.html";
+    }
+  </script>
+</body>
